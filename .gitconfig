@@ -1,0 +1,13 @@
+[core]
+	editor = \"C:\\Users\\57315\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = cajaramillob
+	email = 78059190+cajaramillob@users.noreply.github.com
+	net = cajaramillob
+[use]
+	email = cajaramillob@gmail.com
